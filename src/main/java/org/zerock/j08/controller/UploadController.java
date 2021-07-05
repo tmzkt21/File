@@ -28,6 +28,7 @@ public class UploadController {
 
     @Value("${spring.servlet.multipart.location}")
     private String path;
+    //커밋테스트
 
     @ResponseBody
     @GetMapping(value = "/down")
