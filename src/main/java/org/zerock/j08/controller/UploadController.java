@@ -29,7 +29,7 @@ public class UploadController {
     @Value("${spring.servlet.multipart.location}")
     private String path;
 
-
+//
     @ResponseBody
     @GetMapping(value = "/down")
     public ResponseEntity<byte[]> down(String file){
