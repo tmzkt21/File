@@ -9,6 +9,4 @@ public class FoodTruck {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long tno;
 
-    @ManyToOne
-    private FoodMenu mainMenu;
 }
